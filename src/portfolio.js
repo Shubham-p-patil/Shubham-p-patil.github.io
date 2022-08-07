@@ -24,9 +24,10 @@ const greeting = {
   // title: "Hi all, I'm Shubham",
   title: "Hi, I'm Shubham",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
-  resumeLink: "https://", // Set to empty to hide the button
+  resumeLink:
+    "https://drive.google.com/file/d/1FKJl4JC4hmhL_CCNfD7fXxIHlMOGllyR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,11 +36,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Shubham-p-patil",
   linkedin: "https://www.linkedin.com/in/shubham-pravin-patil/",
-  gmail: "shubhamppatil30@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "patilsh@oregonstate.edu",
+  // gitlab: "https://gitlab.com/shubhampatil",
+  // facebook: "https://www.facebook.com/shubham-patil",
+  // medium: "https://medium.com/@shubhampatil",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/shubham-patil",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,14 +49,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do ?",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  // subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for web applications"
     ),
-    emoji("⚡ SPA Stacks Web Applications"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS")
+    emoji("⚡ SPA Web Applications"),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS"),
+    emoji("⚡ Deployment of websites using Docker and AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,56 +66,91 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "matlab"
+      skillName: "html"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "css"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "JavaScript"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "reactjs"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "nodejs"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "django"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "npm"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "mysql"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "aws"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "firebase"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "python"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "docker"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "git"
+    },
+    {
+      skillName: "vscode"
+    },
+    {
+      skillName: "c++"
+    },
+    {
+      skillName: "unity"
+    },
+    {
+      skillName: "flutter"
+    },
+    {
+      skillName: "angularjs"
+    },
+    {
+      skillName: "pytorch"
+    },
+    {
+      skillName: "opencv"
+    },
+    {
+      skillName: "linux"
+    },
+    {
+      skillName: "ros"
+    },
+    {
+      skillName: "mongodb"
+    },
+    {
+      skillName: "sequelize"
+    },
+    {
+      skillName: "mui"
+    },
+    {
+      skillName: "bootstrap"
+    },
+    {
+      skillName: "express"
+    },
+    {
+      skillName: "webpack"
+    },
+    {
+      skillName: "storybook"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -392,22 +430,14 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "",
+  subtitle: "",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "",
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -423,10 +453,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -439,9 +469,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
