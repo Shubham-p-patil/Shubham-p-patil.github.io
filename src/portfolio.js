@@ -26,8 +26,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://", // Set to empty to hide the button
+  resumeLink: "https://", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -56,9 +55,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji("⚡ SPA Stacks Web Applications"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -131,19 +128,20 @@ const educationInfo = {
       logo: require("./assets/images/osuLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2021 - May 2023",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "CGPA : 3.95",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Courses: Deep Learning, Database Management System, Machine Learning, Computer Graphics"
       ]
     },
     {
       schoolName: "Veermata Jijabai Technological Institute",
       logo: require("./assets/images/vjtiLogo.png"),
       subHeader: "Bachelor of Technology in Electronics Engineering",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2015 - April 2019",
+      desc: "CGPA : 7.33",
+      descBullets: [
+        "Courses: Data Structures, Algorithms, Operating Systems, Computer Networks, Computer Architecture, Image Processing."
+      ]
     }
   ]
 };
@@ -151,7 +149,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -175,29 +173,49 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Product Developer",
+      company: "Pyebook",
+      companylogo: require("./assets/images/pyebookLogo.jpeg"),
       date: "Nov 2019 - August 2021",
-      desc: "Developing Rudhir a online platform for connecting blood donors with patients based on location during these difficult times of Covid-19 pandemic.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Single-handedly designed and developed a Full Stack Single Page Application using React.js, Node.js, and Express.js",
+        "Worked on a development of a interactive e-book that teaches you to code by adapting its contents to your learning style.",
+        "Managed a team of two interns on a project and monitored daily tasks and weekly progress.",
+        "Established a CI/CD pipeline using Github Actions, Docker, and AWS for better code delivery and package updates."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Full Stack Developer",
+      company: "Sangati",
+      companylogo: require("./assets/images/sangatiLogo.jpg"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Developed a Full Stack Single Page Application using Angular.js,Node.js, and Express.js with a user base of over 500 users.",
+        "The application focused on connecting blood donors with patients through a centralized system based on K-Means clustering algorithm during these difficult times of Covid-19 pandemic.",
+        "Website was deployed using Github Actions, and AWS."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Machine Learning Engineer Intern",
+      company: "Bloombench",
+      companylogo: require("./assets/images/bloombenchLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Classified students based on their previous academic records inorder to suggest them prerequisite courses for the course they opted using Self-Organizing Map(SOM) type of an ANN Algorithm",
+        "Adaptive test platform was also created based on the aptitude of the student using a probablistic model approach."
+      ]
+    },
+    {
+      role: "Prooduct Developer Intern",
+      company: "Kossine",
+      companylogo: require("./assets/images/kossineLogo.jpg"),
+      date: "Jan 2015 – Sep 2015",
+      descBullets: [
+        "Developed a prototype of an IoT device(Pillow) featuring voice calling, alarm system , music streaming, and reading light.",
+        "Performed end-to-end testing on the whole project for seamless execution.",
+        "Enabled Raspberry Pi cron jobs to execute client scripts on startup automatically."
+      ]
     }
   ]
 };
@@ -213,29 +231,127 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vaccinationChart.jpg"),
+      projectName: "Poshan",
+      projectDesc:
+        "A flutter-based android application for doctors and volunteers to maintain children’s vaccination and related health records in rural areas.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "#"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/teaching.png"),
+      projectName: "Student Management System",
+      projectDesc:
+        "A web-based learning management system for educators, and students to access and manage a variety of customize course creation and management tools, course and user analytic and statistics.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mobileManipulator.png"),
+      projectName: "SLAM for an Autonomous Mobile Manipulator (AVITRA)",
+      projectDesc:
+        "AVITRA is a omni-wheeled platform with manipulators and a suite of sensors that allow it to autonomously navigate around obstacles and interact with the physical world.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/investing.png"),
+      projectName: "Stock Trend Analysis",
+      projectDesc:
+        "A platform displaying and analyzing the trending news articles and the stock price of the target stock over the years and providing a suggestion on whether to invest in the target stock.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/office.png"),
+      projectName: "Office Automation",
+      projectDesc:
+        "Facilitate detection of human presence, automated attendance and,crowd management in emergencies such as fires and give a productivity analysis in offices",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rhex.webp"),
+      projectName: "R-Hex : All Terrain Robot",
+      projectDesc:
+        "An all-terrain robot inspired by gait of a cockroach that can assist in rescue operations by capturing vital data from an affected area.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smartFarming.png"),
+      projectName: "Pro Farming",
+      projectDesc:
+        "Pro-Farming was an entrepreneurial attempt to provide farm automation (covering aspects like seed sowing, crop disease detection, soil data collection and analysis) as a service.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/editor.png"),
+      projectName: "Web Editor For Arduino",
+      projectDesc:
+        "Arduino create agent was used for developing a connection between the arduino and the web interface. Code Editor was able to save the code and then compile it and upload it to the arduino development boards.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/indoorNavigation.png"),
+      projectName: "Indoor Navigation For Blind",
+      projectDesc:
+        "Idea behind the project was to empower visually challenged people to locate themselves inside a complex or building confidently without being assisted by someone to reach the destination.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smartWatch.png"),
+      projectName: "Trekkers Watch",
+      projectDesc:
+        "A smartwatch is probably most aptly described by Wikipedia as “a computerized wristwatch with functionality that goes beyond timekeeping”. Designed a watch that will show time, temperature, and pressure at that altitude along with dispalying the deviation from North Direction",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "#"
         }
       ]
     }
@@ -248,25 +364,27 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Second in Peoples's Choice Award",
+  subtitle: "",
 
   achievementsCards: [
     {
       title: "Nvidia Jetson Developer Challenge",
-      subtitle:
-        "",
-      image: require("./assets/images/codeInLogo.webp"),
+      subtitle: "Second in Peoples's Choice Award",
+      image: require("./assets/images/nvidiaLogo.png"),
+      footerLink: []
     },
     {
-      title: " DST \& Texas Instruments India Innovation Challenge Design Contest 2017",
-      subtitle:
-        "SemiFinalist",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title:
+        " DST & Texas Instruments India Innovation Challenge Design Contest",
+      subtitle: "SemiFinalist",
+      image: require("./assets/images/tiLogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1pgqp3bz-6oemrGadQT2hx1jAOg8P-NsF/view?usp=sharing"
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -328,10 +446,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me:"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 541-250-7442",
+  number: "",
   email_address: "patilsh@oregonstate.edu"
 };
 
