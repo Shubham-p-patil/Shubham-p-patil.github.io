@@ -53,12 +53,12 @@ const skillsSection = {
   // subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for web applications"
-    ),
-    emoji("⚡ SPA Web Applications"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS"),
-    emoji("⚡ Deployment of websites using Docker and AWS")
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for web applications"
+    // ),
+    // emoji("⚡ SPA Web Applications"),
+    // emoji("⚡ Integration of third party services such as Firebase/ AWS"),
+    // emoji("⚡ Deployment of websites using Docker and AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -475,8 +475,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me:"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "",
   number: "",
   email_address: "patilsh@oregonstate.edu"
 };
