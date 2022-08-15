@@ -27,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1FKJl4JC4hmhL_CCNfD7fXxIHlMOGllyR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wG6cHndSLlIFlZ_kCT21DIQOPvprLYrf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -270,7 +270,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Hello World",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/vaccinationChart.jpg"),
@@ -278,10 +278,10 @@ const bigProjects = {
       projectDesc:
         "A flutter-based android application for doctors and volunteers to maintain children’s vaccination and related health records in rural areas.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
         //  you can add extra buttons here.
       ]
     },
@@ -291,10 +291,10 @@ const bigProjects = {
       projectDesc:
         "A web-based learning management system for educators, and students to access and manage a variety of customize course creation and management tools, course and user analytic and statistics.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -303,10 +303,10 @@ const bigProjects = {
       projectDesc:
         "AVITRA is a omni-wheeled platform with manipulators and a suite of sensors that allow it to autonomously navigate around obstacles and interact with the physical world.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -315,10 +315,10 @@ const bigProjects = {
       projectDesc:
         "A platform displaying and analyzing the trending news articles and the stock price of the target stock over the years and providing a suggestion on whether to invest in the target stock.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -327,10 +327,10 @@ const bigProjects = {
       projectDesc:
         "Facilitate detection of human presence, automated attendance and,crowd management in emergencies such as fires and give a productivity analysis in offices",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -339,10 +339,10 @@ const bigProjects = {
       projectDesc:
         "An all-terrain robot inspired by gait of a cockroach that can assist in rescue operations by capturing vital data from an affected area.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -351,10 +351,10 @@ const bigProjects = {
       projectDesc:
         "Pro-Farming was an entrepreneurial attempt to provide farm automation (covering aspects like seed sowing, crop disease detection, soil data collection and analysis) as a service.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -363,10 +363,10 @@ const bigProjects = {
       projectDesc:
         "Arduino create agent was used for developing a connection between the arduino and the web interface. Code Editor was able to save the code and then compile it and upload it to the arduino development boards.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -375,10 +375,10 @@ const bigProjects = {
       projectDesc:
         "Idea behind the project was to empower visually challenged people to locate themselves inside a complex or building confidently without being assisted by someone to reach the destination.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     },
     {
@@ -387,10 +387,10 @@ const bigProjects = {
       projectDesc:
         "A smartwatch is probably most aptly described by Wikipedia as “a computerized wristwatch with functionality that goes beyond timekeeping”. Designed a watch that will show time, temperature, and pressure at that altitude along with dispalying the deviation from North Direction",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "#"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "#"
+        // }
       ]
     }
   ],
