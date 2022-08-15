@@ -227,7 +227,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Sangati",
       companylogo: require("./assets/images/sangatiLogo.jpg"),
-      date: "May 2017 – May 2018",
+      date: "Nov 2020 – Aug 2021",
       descBullets: [
         "Developed a Full Stack Single Page Application using Angular.js,Node.js, and Express.js with a user base of over 500 users.",
         "The application focused on connecting blood donors with patients through a centralized system based on K-Means clustering algorithm during these difficult times of Covid-19 pandemic.",
@@ -238,7 +238,7 @@ const workExperiences = {
       role: "Machine Learning Engineer Intern",
       company: "Bloombench",
       companylogo: require("./assets/images/bloombenchLogo.jpg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "May 2018 – Jun 2018",
       descBullets: [
         "Classified students based on their previous academic records inorder to suggest them prerequisite courses for the course they opted using Self-Organizing Map(SOM) type of an ANN Algorithm",
         "Adaptive test platform was also created based on the aptitude of the student using a probablistic model approach."
@@ -246,9 +246,9 @@ const workExperiences = {
     },
     {
       role: "Prooduct Developer Intern",
-      company: "Kossine",
+      company: "Neebal Learning",
       companylogo: require("./assets/images/kossineLogo.jpg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "May 2017 – Jul 2015",
       descBullets: [
         "Developed a prototype of an IoT device(Pillow) featuring voice calling, alarm system , music streaming, and reading light.",
         "Performed end-to-end testing on the whole project for seamless execution.",
