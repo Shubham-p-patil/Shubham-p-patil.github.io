@@ -36,7 +36,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Shubham-p-patil",
   linkedin: "https://www.linkedin.com/in/shubham-pravin-patil/",
-  gmail: "patilsh@oregonstate.edu",
+  gmail: "patilsh[@]oregonstate.edu",
   // gitlab: "https://gitlab.com/shubhampatil",
   // facebook: "https://www.facebook.com/shubham-patil",
   // medium: "https://medium.com/@shubhampatil",
@@ -477,7 +477,7 @@ const contactInfo = {
   title: emoji("Contact Me:"),
   subtitle: "",
   number: "",
-  email_address: "patilsh@oregonstate.edu"
+  email_address: "patilsh[@]oregonstate.edu"
 };
 
 // Twitter Section
